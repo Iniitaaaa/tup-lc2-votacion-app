@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sistema de Publicación de Resultados Electorales</title>
+<link rel="shortcut icon" type="image/png" href="favicon-16x16.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Estilos CSS -->
+<link rel="stylesheet" href="css/paso.css" />
+</head>
+
+<body>
+<header>
+<!--Barra de logo portal-->
+<div class="header-page">
+<a href="index.html"><img src="img/icons/logo.png" alt="logo" class="logo"></a> 
+<p>Dirección Nacional<br> Electoral</br></p>
+</div>
+<!--Barra de menú principal-->
+<nav>
+    <p>CONSULTAR:</p>
+    <ul class="lista-nav">
+        <li class="uno">Año
+            <ol>
+                <li>2023</li>
+                <li>2022</li>
+
+            </ol>
+            
+        </li>
+        <li class="uno">Cargo
+            <ol>
+                <li>Cargo1</li>
+                <li>Cargo2</li>
+            </ol>
+            
+        </li>
+
+        <li class="uno">Dsitrito
+            <ol>
+                <li>Distrito1</li>
+                <li>Distrito2</li>
+            </ol>
+            
+        </li>
+    </ul>
+    <div class="buscar">
+        <input type="search" id="search" name="search" placeholder="FILTRAR">
+        
+    </div>
+    
+    <button class="generales"><a href="generales.html">GENERALES</a></button>
+    <button class="informes"><a href="informes.html">INFORMES</a></button>
+
+</nav>
+</header>
+<main>
+<section id="señales">
+    <div class="verde">
+        <img src="img/icons/dedo.svg">
+        <p>Se agregó con éxito el resultado al informe</p>
+    </div>
+    <div class="rojo">
+        <img src="img/icons/señal.svg">
+        <p>Error. Se produjo un error al intentar agregar los resultados</p>
+    </div>
+    <div class="amarillo">
+        <img src="img/icons/signo.svg">
+        <p>La operación no se pudo completar</p>
+    </div>
+</section>
+<section id="texto">
+    <h2>Elecciones 2021 | Paso </h2>
+    <p>2020 > Generales > Provisorio > Senadores Nacionales > Buenos Aires</p>
+</section>
+</main>
+<footer>
+    <div class="footer-left">
+       <img src="img/icons/escudo.png" class="escudo">
+        <p class="escudo-t">Ministerio del Interior<br>Argentina</br></p>
+       <img src="img/icons/logo-footer.png" class="logo-footer">
+       <p class="logo-t">Dirección Nacional<br> Electoral</br></p>
+       <p class="ope">Observatorio<br>Politico Electoral</br></p>
+
+
+    </div>
+    <div class="footer-right">
+        <p class="texto">“Resultados Provisorios en base a telegramas recibidos (Art. 43 Ley 26571 y Art. 105 Ley 19945). Los porcentajes de las agrupaciones políticas son calculados sobre los votos válidos (PASO) conforme al art. 45 Ley 26.571 y afirmativos (Generales). No se incluyen los votos correspondientes a los electores residentes en el exterior ni privados de la libertad. Al usar este sitio usted acepta los <a>Términos y Condiciones</a></p>
+    </div>
+</footer>
+</body>
+</html>
